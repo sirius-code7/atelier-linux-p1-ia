@@ -135,9 +135,40 @@ https://drive.google.com/file/d/1PmVJIlmY91nfvfFw5gyOxL8_Q0zmOSOS/view?usp=drive
 
 https://drive.google.com/file/d/10EktCNMjFuMcOoWejxDrJGY_B8TxrUJs/view?usp=drive_link
 
+## Bloc 9 : Ajouter Frank (Data Scientist)
+
+### a) Créer son compte
+
+sudo useradd -m frank
+sudo passwd frank
+
+### b) L'ajouter aux bons groupes (même rôle qu'Alice → groupe data)
+
+sudo usermod -aG data frank
+id frank
+
+### c) Vérifier qu'il peut travailler dans datasets/
+
+su - frank
+touch /home/vagrant/IA_Project/datasets/test_frank.txt && echo "OK : frank peut ecrire dans datasets"
+
+### d) Vérifier qu'il ne peut pas modifier backup/
+
+touch /home/vagrant/IA_Project/backup/test_frank.txt
+
+→ failed (backup est 700, réservé à diane).
+
+### e) Vérifier qu'il peut accéder à shared/
+
+ls /home/vagrant/IA_Project/shared/
+exit
+
+→ success (shared a r-x pour les autres, et frank fait partie du groupe data qui a en plus rwx).
+
+https://drive.google.com/file/d/16gywIVqpTme3cwNX0M1inaKKjC0ko7iD/view?usp=drive_link
 
 
-
+#FIN
 
 
 
