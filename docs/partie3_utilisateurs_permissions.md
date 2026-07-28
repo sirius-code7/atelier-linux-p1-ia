@@ -120,7 +120,20 @@ sudo chmod 775 shared
 
 https://drive.google.com/file/d/1HwPnXqenePbrHI2fhkz0Qow-2EHS2O8D/view?usp=drive_link
 
+## Bloc 8 : Vérifier les droits depuis chaque compte
 
+
+### Alice doit pouvoir créer un fichier dans datasets :
+
+https://drive.google.com/file/d/1znYiZeQFzQdVR-2coypes3t1Teg54YD_/view?usp=drive_link
+
+### Bob doit pouvoir lire datasets, mais pas modifier models :
+
+https://drive.google.com/file/d/1PmVJIlmY91nfvfFw5gyOxL8_Q0zmOSOS/view?usp=drive_link
+
+### Eva doit lire documentation, mais pas accéder à backup :
+
+https://drive.google.com/file/d/10EktCNMjFuMcOoWejxDrJGY_B8TxrUJs/view?usp=drive_link
 
 
 
