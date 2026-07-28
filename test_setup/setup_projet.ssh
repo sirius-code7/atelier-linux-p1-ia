@@ -42,8 +42,8 @@ CONFIG_OK="OK"
 
 # --- 4. Installer les outils ---
 echo ">> Installation des outils necessaires..."
-sudo apt update -y > /dev/null
-sudo apt install -y git curl wget htop tree python3 python3-pip unzip > /dev/null
+sudo apt-get update -y > /dev/null
+sudo apt-get install -y git curl wget htop tree python3 python3-pip unzip > /dev/null
 LOGICIELS_OK="OK"
 
 # --- 5. Telecharger le dataset ---
@@ -57,7 +57,7 @@ fi
 
 # --- 6. Compresser le projet ---
 echo ">> Compression du projet..."
-tar -czf "$PROJECT_NAME"/backup/"$PROJECT_NAME".tar.gz "$PROJECT_NAME" --exclude="$PROJECT_NAME/backup"
+tar --exclude="$PROJECT_NAME/backup" -czf "$PROJECT_NAME"/backup/"$PROJECT_NAME".tar.gz "$PROJECT_NAME"
 ARCHIVE_PATH="$PROJECT_NAME/backup/$PROJECT_NAME.tar.gz"
 
 # --- 7. Afficher un resume ---
@@ -72,5 +72,3 @@ echo "Dataset : $DATASET_OK"
 echo "Archive : $ARCHIVE_PATH"
 echo "Installation terminee."
 echo "=========================="
-
-
