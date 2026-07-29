@@ -32,7 +32,7 @@ historique clair et vérifiable :
 
 | Partie | Description | Documentation |
 |---|---|---|
-| 1 | Organisation du projet (arborescence) | historique des commits |
+| 1 | Organisation du projet (arborescence) | [docs/partie_1_créer_arborescence_du_projet.md](docs/partie_1_créer_arborescence_du_projet.md)|
 | 2 | Manipulation des fichiers (cat, grep, tar...) | [docs/partie2_manipulation_fichiers.md](docs/partie_2_manipulation_fichiers.md) |
 | 3 | Utilisateurs, groupes et permissions | [docs/partie3_utilisateurs_permissions.md](docs/partie3_utilisateurs_permissions.md) |
 | 4 | Installation des logiciels + dataset iris.csv | [docs/partie4_installation_logiciels.md](docs/partie4_installation_logiciels.md) |
