@@ -25,6 +25,8 @@ IA_Project/
 ├── shared/ # Dossier partagé entre utilisateurs
 └── docs/ # Documentation détaillée de chaque étape (voir ci-dessous)
 
+<img width="2720" height="1820" alt="architecture_projet_ia_linux" src="https://github.com/user-attachments/assets/9d2dad72-ab9d-44a6-a7bc-8fcc15b4fc09" />
+
 ## Suivi du travail — étape par étape
 
 Chaque partie de l'atelier a été documentée et commitée séparément afin de garder un
