@@ -1,4 +1,14 @@
 
+# Partie 7 (Bonus) : Rotation des logs avec logrotate
+
+## Objectif
+
+Eviter que application.log et training.log grossissent indefiniment,
+en automatisant leur archivage/compression.
+
+## Configuration : /etc/logrotate.d/ia_project
+
+
 ## 1) Créer la config logrotate pour le projet
 
 sudo touch /etc/logrotate.d/ia_project
